@@ -1,0 +1,56 @@
+header.navbar.bg-primary {
+    background-color: rgba(213, 213, 213, 0.6)!important;
+    -webkit-backdrop-filter: saturate(180%) blur(20px)!important;
+    backdrop-filter: saturate(180%) blur(20px)!important;
+}
+header.navbar.bg-primary a.navbar-brand {
+    color: black!important;
+}
+.container-fluid .row aside.sidebar {
+    padding-top: 40px!important;
+    height: calc(100vh - 40px);
+}
+a.btn-primary {
+    border: 2px solid #007bff!important;
+    background-color: transparent!important;
+    color: #007bff!important;
+    transition: .2s!important;
+}
+a.btn-primary:hover {
+    background-color: #007bff!important;
+    color: white!important;
+}
+a.btn-danger {
+    border: 2px solid #dc3545!important;
+    background-color: transparent!important;
+    color: #dc3545!important;
+    transition: .2s!important;
+}
+a.btn-danger:hover {
+    background-color: #dc3545!important;
+    color: white!important;
+}
+a.nav-link {
+    color: black!important;
+    background: transparent!important;
+    transition: .2s!important;
+    border-radius: 20px!important;
+}
+a.nav-link:hover {
+    color: black!important;
+    background: #d7d7d7 !important;
+}
+li.nav-item {
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 10px!important;
+}
+h6.sidebar-heading {
+    display: none;
+}
+div.card {
+    border: none!important;
+    background: white!important;
+    box-shadow: 0 4px 26px 33px rgba(152, 152, 152, 0.07);
+    border-radius: 8px!important;
+}
